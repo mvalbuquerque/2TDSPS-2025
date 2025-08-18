@@ -2,7 +2,6 @@
 
 Repositório React Native
 
-
 # AULA  - 18-08-2025
 
 - Conteudo:
