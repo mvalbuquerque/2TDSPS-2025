@@ -3,7 +3,6 @@
 Comentário de bloco 
 Comentário de bloco 
 Comentário de bloco 
-{* de componente  *}
 */
 
 import * as React from 'react'; // Importa o React
@@ -25,9 +24,13 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 const HomeScreen: React.FC = () => { 
 
   return (
-
     <View style={styles.container}>
+      <Text style={styles.estilo}>Olá, Mundo!</Text> 
+      <Text style={styles.estilao}>Olá, Verde!</Text>
       <Text style={styles.estilo}>Olá, Mundo!</Text>
+      <Text style={styles.estilo}>Olá, Mundo!</Text>
+      <Text style={styles.estilo}>Olá, Mundo!</Text>
+
       <StatusBar style="auto" />
     </View>
 
@@ -55,8 +58,12 @@ const styles = StyleSheet.create({
   },
   estilo: {
     fontSize: 24,
-    color: '#fffcfcff',
+    color: '#ED145b',
   },
-});
+  estilao: {
+    fontSize: 24,
+    color: '#14ed72ff',
+  },
 
+});
 export default App;
